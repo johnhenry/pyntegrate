@@ -1,5 +1,7 @@
 # pyntegrate
 
+> Previously published as `pyntegrate` (unscoped, up to 0.0.1). Versions continue here as `@johnhenry/pyntegrate`.
+
 Import python modules into javascript files.
 
 See [pymport](https://www.npmjs.com/package/pymport) for a similar package that allows for importing python modules into javascript files.
@@ -7,7 +9,7 @@ See [pymport](https://www.npmjs.com/package/pymport) for a similar package that 
 ## Installation
 
 ```bash
-npm install pyntegrate
+npm install @johnhenry/pyntegrate
 ```
 
 ## Usage: Compare to normal javascript imports
@@ -19,7 +21,7 @@ const js_func_val = javascript_module.some_func();
 ```
 
 ```javascript
-import pyntegrate from "pyntegrate";
+import pyntegrate from "@johnhenry/pyntegrate";
 const python_module = pyntegrate(
   import.meta.resolve("./path/to/python_module.py")
 );
@@ -30,7 +32,7 @@ const ps_func_val = await python_module("some_func").call();
 ## Usage: Casting
 
 ```javascript
-import pyntegrate from "pyntegrate";
+import pyntegrate from "@johnhenry/pyntegrate";
 const python_module = pyntegrate(
   import.meta.resolve("./path/to/python_module.py")
 );

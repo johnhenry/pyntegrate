@@ -1,10 +1,26 @@
 {
-  "name": "pyntegrate",
-  "version": "0.0.1",
+  "name": "@johnhenry/pyntegrate",
+  "version": "0.1.0",
   "type": "module",
   "main": "index.mjs",
   "scripts": {
     "test": "node ./test.mjs"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "author": "John Henry",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhenry/pyntegrate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnhenry/pyntegrate/issues"
+  },
+  "homepage": "https://github.com/johnhenry/pyntegrate#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
